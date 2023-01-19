@@ -19,11 +19,11 @@ Task 1: Implement Management Groups
 | Management group ID           | az104-02-mg1 |
 | Management group display name | az104-02-mg1 |
 
-[a](./img/198.png)
+![a](./img/198.png)
 
 2- Añade la suscripción correspondiente.
 
-[a](./img/197.png)
+![a](./img/197.png)
 
 Task 2: Create custom RBAC roles
 
@@ -49,13 +49,13 @@ Sustituye `SUSCRIPTION ID` con tu la ID de tu suscripción.
 
 2- Ahora subiremos este JSON a través de la consola del portal de azure.
 
-[a](./img/196.png)
+![a](./img/196.png)
 
 3- Creamos una nueva definición de rol:
 
 `New-AzRoleDefinition -InputFile $HOME/aaa.json`
 
-[a](./img/195.png)
+![a](./img/195.png)
 
 Task 3: Assign RBAC roles
 
@@ -70,25 +70,25 @@ Vamos a crear un usuario con el rol creado anteriormente.
 | Let me create the password | enabled                   |
 | Initial password           | Provide a secure password |
 
-[a](./img/194.png)
+![a](./img/194.png)
 
 2- Vuelve al grupo de gestión creado y añade el rol de Support Request Contributor (custom)
 
-[a](./img/193.png)
-[a](./img/192.png)
+![a](./img/193.png)
+![a](./img/192.png)
 
 Añadimos el usuario creado.
 
-[a](./img/191.png)
+![a](./img/191.png)
 
 3- Nos conectamos con el nuevo usuario.
 
 Comprobamos que el usuario puede ver todos los grupos de recursos.
 
-[a](./img/190.png)
+![a](./img/190.png)
 
 Creamos un ticket de ayuda, con el problema de Service and subscription limits (quotas).
 
-[a](./img/189.png)
+![a](./img/189.png)
 
 4- Cerramos sesión.
